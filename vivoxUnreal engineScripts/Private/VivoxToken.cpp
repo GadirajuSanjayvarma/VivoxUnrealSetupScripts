@@ -18,7 +18,7 @@
 
 DEFINE_LOG_CATEGORY_STATIC(LogVivoxToken, Log, All);
 
-#define VIVOX_VOICE_KEY TEXT("hawk080")
+#define VIVOX_VOICE_KEY TEXT("")
 
 void FVivoxToken::GenerateClientLoginToken(const ILoginSession& LoginSession, FString& OutToken)
 {
